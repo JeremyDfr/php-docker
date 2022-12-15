@@ -7,7 +7,7 @@ try {
     $host = 'db';
     $dbname = 'database';
     $user = 'user';
-    $pass = 'pass';
+    $pass = 'password';
     $dsn = "mysql:host=$host;dbname=$dbname;charset=utf8";
     $conn = new PDO($dsn, $user, $pass);
 
