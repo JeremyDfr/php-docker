@@ -5,7 +5,7 @@ services:
   app:
     build: .
     container_name: php-app
-    working_dir: /var/www/
+    working_dir: /var/www/app
     volumes:
       - ./app:/var/www/app
     networks:
